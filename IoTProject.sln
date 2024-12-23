@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTDeviceSimulator", "IoTDeviceSimulator\IoTDeviceSimulator.csproj", "{664A5AA4-2728-492A-BECB-1D160069A9F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTDataProcessor", "IoTDataProcessor\IoTDataProcessor.csproj", "{E7B800D2-450E-4B82-81E0-F90DABDD3D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTSharedLibrary", "IoTSharedLibrary\IoTSharedLibrary.csproj", "{7D657624-5D97-42F0-B8B8-588DD2F74CC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{664A5AA4-2728-492A-BECB-1D160069A9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664A5AA4-2728-492A-BECB-1D160069A9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664A5AA4-2728-492A-BECB-1D160069A9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664A5AA4-2728-492A-BECB-1D160069A9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B800D2-450E-4B82-81E0-F90DABDD3D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B800D2-450E-4B82-81E0-F90DABDD3D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B800D2-450E-4B82-81E0-F90DABDD3D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B800D2-450E-4B82-81E0-F90DABDD3D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D657624-5D97-42F0-B8B8-588DD2F74CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D657624-5D97-42F0-B8B8-588DD2F74CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D657624-5D97-42F0-B8B8-588DD2F74CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D657624-5D97-42F0-B8B8-588DD2F74CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {726B7E9C-8A74-457F-9BED-E55638F14838}
+	EndGlobalSection
+EndGlobal
